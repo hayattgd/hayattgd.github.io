@@ -16,7 +16,7 @@ a {
     cursor: default;
 }
 
-header {
+.header {
     position: fixed;
     padding-bottom: 35px;
     background-color: burlywood;
@@ -48,7 +48,7 @@ main {
     margin-right: 50px;
 }
 
-footer {
+.footer {
     background-color: wheat;
     padding-bottom: 100px;
 }
