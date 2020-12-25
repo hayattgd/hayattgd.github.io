@@ -9,6 +9,13 @@ li {
     list-style: none;
 }
 
+p {
+    cursor: default;
+}
+a {
+    cursor: default;
+}
+
 header {
     position: fixed;
     padding-bottom: 35px;
