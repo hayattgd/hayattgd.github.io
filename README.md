@@ -1,4 +1,7 @@
-# Welcome to hayattgd Official Site!
+# Hayattgd オフィシャルサイトへようこそ！
 ---
-
+ウェブサイト:
 https://hayattgd.github.io/
+
+まあ適当にやってますよウェブサイトはｗ
+動画も見てくださいねー
