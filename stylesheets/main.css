@@ -16,7 +16,7 @@ a {
     cursor: default;
 }
 
-.header {
+header {
     position: fixed;
     padding-bottom: 35px;
     background-color: burlywood;
