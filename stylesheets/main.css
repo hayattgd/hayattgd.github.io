@@ -1,0 +1,42 @@
+body,li,ul,html,a,p,h1,h2,h3,h4,h5,h6,input,button,select,option {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,a {
+    color: #525252;
+}
+
+.Header-menu a {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.Header-Logo h1, .Header-menu a {
+    text-decoration: none;
+    padding-left: 7px;
+    float: left;
+}
+
+.Header-Logo  {
+    padding-top: 0px;
+}
+
+.Header-Logo h1 {
+    font-size: 25px;
+    padding-top: 0px;
+}
+
+header {
+    padding-bottom: 85px;
+    background-color: #9ddef1;
+    box-shadow: 0px -20px 20px 20px black;
+}
