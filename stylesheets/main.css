@@ -9,6 +9,7 @@ li {
 
 body {
     font-family: sans-serif;
+    background-color: #ffffff;
 }
 
 h1,h2,h3,h4,h5,h6,p,a {
@@ -39,4 +40,27 @@ header {
     padding-bottom: 85px;
     background-color: #9ddef1;
     box-shadow: 0px -20px 20px 20px black;
+}
+
+footer {
+    padding-top: 135px;
+    background-color: #4e4e4e;
+    color: #ffffff;
+}
+
+main {
+    background-color: #e9ddcb;
+    padding: 10px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+.NOT-FOUND-PAGES {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 570%;
+}
+
+.NOT-FOUND-INFO {
+    text-align: center;
 }
