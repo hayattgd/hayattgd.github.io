@@ -2,7 +2,7 @@
 
 Welcome to my Official Web!
 
-but you need a watch rules.
+but you need a see rules.
 
 Rules
 ---
