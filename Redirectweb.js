@@ -1,0 +1,1 @@
+location.href = "en-us/index.html"
