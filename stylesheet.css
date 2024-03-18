@@ -1,0 +1,84 @@
+html, body, p, a, h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: #222427;
+	min-height: 100vh;
+	position: relative;
+}
+
+body::after {
+	display: block;
+	height: 100px;
+  }
+
+header {
+	background-color: #444e6a88;
+	height: 75px;
+	width: 100%;
+	backdrop-filter: blur(10px);
+	position: fixed;
+}
+
+main {
+	padding-top: 75px;
+	padding-bottom: 100px;
+}
+
+div.text-section {
+	width: 60%;
+	display: block;	
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+div.Projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+div.Projects a {
+	width: 620px;
+	text-decoration: none;
+	padding-bottom: 50px;
+}
+
+div.Projects a img {
+	border-radius: 50px;
+	border-width: 10px;
+	border-color: #080d1a;
+	border-style: solid;
+	width: 500px;
+	margin: 50px;
+	margin-bottom: 15px;
+}
+
+div.Projects a p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+main h1 {
+	text-align: center;
+	padding: 15px;
+}
+
+footer {
+	position: absolute;
+	background-color: #282d3a;
+	height: 100px;
+	width: 100%;
+	bottom: 0px;
+}
+
+footer *:not(a) {
+	float: left;
+	padding-top: 30px;
+	padding-left: 25px;
+}
