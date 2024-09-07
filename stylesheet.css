@@ -77,8 +77,9 @@ footer {
 	bottom: 0px;
 }
 
-footer *:not(a) {
+footer a {
 	float: left;
 	padding-top: 30px;
 	padding-left: 25px;
+  text-decoration: none;
 }
