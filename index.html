@@ -6,19 +6,35 @@
 	<link rel="stylesheet" href="stylesheet.css">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 	<title>hayattgd</title>
+
+	<script src="script.js"></script>
 </head>
 <body>
 	<header>
-
+		<a href="#Home">Home</a>
+		<a href="#About">About</a>
+		<a href="#Projects">Projects</a>
 	</header>
-	<main>
-		<h1>About me</h1>
+	<main id="Home">
+		<h1>Welcome!</h1>
+		<div class="text-image">
+			<p>
+				<span style="font-size: 32px;">Hello! I'm <strong>hayattgd.</strong> <br>
+				<strong style="color: #97dbfa;"><a href="https://www.roblox.com/">Roblox</a> / <a href="http://unity.com">Unity</a> Game Developer</strong></span> <br>
+				I love games, and I love <em>making</em> games. <br>
+				(i can also create normal application!)
+				<br><small>contact me via Discord: <span id="discord-username" onclick="copyText('rlhay')"><strong>rlhay</strong> (click to copy)</small></span>
+			</p>
+			<img src="img/favicon.png" alt="my icon">
+		</div>
+		<div class="separater" id="About"></div>
+		<h1 >About me</h1>
 		<div class="text-section">
 			<p>
-				im just a gamer who play minecraft and mario!<br>
-				but, im also developer who uses unity and C/C++ and C#<br>
+				I'm a passionate gamer and developer with a love for creating immersive experiences. My journey began with classic games like Minecraft and Mario, which inspired me to explore game development. I specialize in Unity and have experience with C/C++, Luau (Roblox), and C#. I enjoy tackling challenges and continuously learning new technologies to enhance my skills. When I'm not coding, you can find me playing games or collaborating on exciting projects with fellow developers!
 			</p>
 		</div>
+		<div class="separater" id="Projects"></div>
 		<h1>Projects</h1>
 		<div class="Projects">
 			<a href="https://github.com/hayattgd/Ping-Pong">
@@ -27,11 +43,11 @@
 			</a>
 			<a href="https://gamejolt.com/games/robos/801441">
 				<img src="https://m.gjcdn.net/game-thumbnail/1000/801441-ll-wg2xggts-v4.webp" alt="Robotics Thumbnail">
-				<p>Robotics</p>
+				<p>Robotics (Unity)</p>
 			</a>
 			<a href="https://www.roblox.com/games/18970395039/">
 				<img src="https://tr.rbxcdn.com/66f8fa9794d88e23f85b491a74bddecf/768/432/Image/Webp" alt="Swing rounds Thumbnail">
-				<p>Swing rounds</p>
+				<p>Swing rounds (Roblox)</p>
 			</a>
 		</div>
 	</main>
