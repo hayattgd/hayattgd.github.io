@@ -15,7 +15,7 @@ body {
 body::after {
 	display: block;
 	height: 100px;
-  }
+}
 
 header {
 	background-color: #444e6a88;
@@ -81,6 +81,11 @@ div.text-image p small {
 
 :any-link:hover {
 	color: #75b1ff;
+}
+
+#HIRING {
+	font-weight: 700;
+	font-size: large;
 }
 
 div.text-image img {
