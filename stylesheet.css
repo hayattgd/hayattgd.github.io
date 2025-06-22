@@ -17,6 +17,10 @@ body::after {
 	height: 100px;
 }
 
+sub {
+	font-size: 13px;
+}
+
 header {
 	background-color: #444e6a88;
 	height: 75px;
@@ -52,7 +56,9 @@ div.text-section {
 	margin: 24px 16%;
 	font-size: 24px;
 	align-items: center;
+	justify-content: center;
 	line-height: 1.7;
+	flex-direction: column;
 }
 
 div.text-image {
