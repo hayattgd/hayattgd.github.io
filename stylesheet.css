@@ -35,6 +35,9 @@ sub {
 }
 
 header {
+	border: 1px solid #ffffff41;
+	border-top: none;
+	border-bottom: none;
 	box-shadow: #000000a1 0 0 20px;
 	background-color: #0f1216a6;
 	height: 75px;
@@ -119,6 +122,8 @@ div.text-image img {
 	transition: transform ease-out 0.5s;
 	width: 30%;
 	object-fit: contain;
+	border-top: 1px solid #ffffff41;
+	box-shadow: #000000a9 0 3px 5px;
 }
 
 div.text-image img:hover {
@@ -196,6 +201,7 @@ main h1 {
 }
 
 footer {
+	border-top: 1px solid #ffffff41;
 	box-shadow: #000000a1 0 0 15px;
 	background-color: #1b1d20;
 	height: 50px;
