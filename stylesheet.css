@@ -240,9 +240,11 @@ footer a {
 	text-decoration: none;
 }
 
-@media screen and (width <=1150px) {
+@media screen and (width <=1400px) {
 	header {
 		width: 100vw;
 		margin: 0;
+		border: none;
+		border-radius: 0px;
 	}
 }
