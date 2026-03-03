@@ -143,11 +143,32 @@ div.text-image img:hover {
 	color: #668ebb;
 }
 
-div.Projects {
+div.Projects,
+div.Render {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding-bottom: 20px;
+}
+
+div.Render>* {
+	transition: all 0.2s ease;
+	border-radius: 15px;
+	width: 500px;
+	margin: 10px;
+	box-shadow: #000000a9 0 5px 5px;
+	background-color: #0000006b;
+	border-top: 1px solid #ffffff41;
+	padding: 5px;
+}
+
+div.Render>*:hover {
+	box-shadow: #71c4ff 0 0 10px;
+	background-color: #71c4ff;
+	transform: scale(1.04);
+	outline: none;
+	position: relative;
+	z-index: 0;
 }
 
 div.Projects a {
@@ -170,15 +191,15 @@ div.Projects a:focus-visible {
 	border: none;
 	outline: none;
 	transform: scale(1.04);
-	box-shadow: #5fb7ffe0 0 0 10px;
-	background-color: #5fb7ffc0;
+	box-shadow: #71c4ff 0 0 10px;
+	background-color: #71c4ff;
 	position: relative;
 	z-index: 0;
 }
 
 div.Projects a:active {
-	box-shadow: #5fb7ff 0 0 30px;
-	background-color: #31a2ff;
+	box-shadow: #71c4ff 0 0 30px;
+	background-color: #71c4ff;
 	transform: scale(0.95);
 }
 
